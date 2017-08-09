@@ -1,0 +1,4 @@
+dependencies: \
+  /Users/liangrongchang/Desktop/LCGoodDetailViewController/LCGoodDetailViewController/CustomTitleScrollViewController.m \
+  /Users/liangrongchang/Desktop/LCGoodDetailViewController/LCGoodDetailViewController/CustomTitleScrollViewController.h \
+  /Users/liangrongchang/Desktop/LCGoodDetailViewController/LCGoodDetailViewController/LCTitleScrollViewController/LCTitleScrollViewController.h

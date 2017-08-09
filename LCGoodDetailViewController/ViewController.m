@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "FirstViewController.h"
+#import "CustomTitleScrollViewController.h"
 
 @interface ViewController ()
 
@@ -16,13 +18,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)addTwoChildViewControllers {
+    FirstViewController *firstVc = [[FirstViewController alloc] init];
+    [self addChildViewController:firstVc];
+    
+    CustomTitleScrollViewController *secondVc = [[CustomTitleScrollViewController alloc] init];
+    [self addChildViewController:secondVc];
 }
 
 

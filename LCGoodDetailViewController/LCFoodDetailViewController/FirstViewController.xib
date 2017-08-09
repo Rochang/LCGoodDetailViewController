@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FirstViewController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="tO5-Wg-9bQ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Oy-gI-Iib">
+                    <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上拉查看更多" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fY3-f2-t0U">
+                            <rect key="frame" x="135.5" y="12" width="104" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="7iy-Qo-AlF"/>
+                        <constraint firstItem="fY3-f2-t0U" firstAttribute="centerX" secondItem="1Oy-gI-Iib" secondAttribute="centerX" id="d9e-Zk-eFC"/>
+                        <constraint firstItem="fY3-f2-t0U" firstAttribute="centerY" secondItem="1Oy-gI-Iib" secondAttribute="centerY" id="qpa-pO-lig"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FisrtViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="11t-0k-8bZ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="1Oy-gI-Iib" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6sE-bW-cNg"/>
+                <constraint firstItem="11t-0k-8bZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="FR0-w8-UK3"/>
+                <constraint firstAttribute="bottom" secondItem="1Oy-gI-Iib" secondAttribute="bottom" id="L0M-CC-s3M"/>
+                <constraint firstAttribute="trailing" secondItem="1Oy-gI-Iib" secondAttribute="trailing" id="Lx4-vL-Ui9"/>
+                <constraint firstItem="11t-0k-8bZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ivP-QD-O0t"/>
+                <constraint firstAttribute="trailing" secondItem="11t-0k-8bZ" secondAttribute="trailing" id="n3b-Jc-0nA"/>
+                <constraint firstItem="1Oy-gI-Iib" firstAttribute="top" secondItem="11t-0k-8bZ" secondAttribute="bottom" id="uX1-XA-XLU"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

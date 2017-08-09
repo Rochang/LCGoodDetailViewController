@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LCFoodDetailViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : LCFoodDetailViewController
 
 
 @end

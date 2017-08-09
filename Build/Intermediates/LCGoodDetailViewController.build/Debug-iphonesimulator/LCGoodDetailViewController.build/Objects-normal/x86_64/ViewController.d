@@ -1,0 +1,7 @@
+dependencies: \
+  /Users/liangrongchang/Desktop/LCGoodDetailViewController/LCGoodDetailViewController/ViewController.m \
+  /Users/liangrongchang/Desktop/LCGoodDetailViewController/LCGoodDetailViewController/ViewController.h \
+  /Users/liangrongchang/Desktop/LCGoodDetailViewController/LCGoodDetailViewController/LCFoodDetailViewController/LCFoodDetailViewController.h \
+  /Users/liangrongchang/Desktop/LCGoodDetailViewController/LCGoodDetailViewController/LCFoodDetailViewController/FirstViewController.h \
+  /Users/liangrongchang/Desktop/LCGoodDetailViewController/LCGoodDetailViewController/CustomTitleScrollViewController.h \
+  /Users/liangrongchang/Desktop/LCGoodDetailViewController/LCGoodDetailViewController/LCTitleScrollViewController/LCTitleScrollViewController.h

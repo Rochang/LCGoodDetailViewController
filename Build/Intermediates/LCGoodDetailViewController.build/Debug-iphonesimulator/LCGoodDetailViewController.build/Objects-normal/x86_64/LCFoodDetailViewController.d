@@ -1,0 +1,6 @@
+dependencies: \
+  /Users/liangrongchang/Desktop/LCGoodDetailViewController/LCGoodDetailViewController/LCFoodDetailViewController/LCFoodDetailViewController.m \
+  /Users/liangrongchang/Desktop/LCGoodDetailViewController/LCGoodDetailViewController/LCFoodDetailViewController/LCFoodDetailViewController.h \
+  /Users/liangrongchang/Desktop/LCGoodDetailViewController/LCGoodDetailViewController/LCFoodDetailViewController/FirstViewController.h \
+  /Users/liangrongchang/Desktop/LCGoodDetailViewController/LCGoodDetailViewController/LCFoodDetailViewController/SecondViewController.h \
+  /Users/liangrongchang/Desktop/LCGoodDetailViewController/LCGoodDetailViewController/UIView+LCLayout.h

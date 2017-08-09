@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1362F5E29DFCAE6171A7354A /* libPods-LCGoodDetailViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B4941740992089368A2B7F /* libPods-LCGoodDetailViewController.a */; };
 		A3AA23EE1F3AE00800CF0C61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AA23ED1F3AE00800CF0C61 /* main.m */; };
 		A3AA23F11F3AE00800CF0C61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AA23F01F3AE00800CF0C61 /* AppDelegate.m */; };
 		A3AA23F41F3AE00800CF0C61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AA23F31F3AE00800CF0C61 /* ViewController.m */; };
 		A3AA23F71F3AE00800CF0C61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AA23F51F3AE00800CF0C61 /* Main.storyboard */; };
 		A3AA23F91F3AE00800CF0C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AA23F81F3AE00800CF0C61 /* Assets.xcassets */; };
 		A3AA23FC1F3AE00800CF0C61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AA23FA1F3AE00800CF0C61 /* LaunchScreen.storyboard */; };
+		A3AA24061F3AE02700CF0C61 /* LCFoodDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AA24051F3AE02700CF0C61 /* LCFoodDetailViewController.m */; };
+		A3AA240F1F3AE18A00CF0C61 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AA240E1F3AE18A00CF0C61 /* FirstViewController.m */; };
+		A3AA24121F3AE19300CF0C61 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AA24111F3AE19300CF0C61 /* SecondViewController.m */; };
+		A3AA24141F3AE5E400CF0C61 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3AA24131F3AE5E400CF0C61 /* FirstViewController.xib */; };
+		A3AA24161F3AE83900CF0C61 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3AA24151F3AE83900CF0C61 /* SecondViewController.xib */; };
+		A3AA241A1F3AEB9B00CF0C61 /* LCTitleScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AA24191F3AEB9B00CF0C61 /* LCTitleScrollViewController.m */; };
+		A3AA241D1F3AEC3B00CF0C61 /* UIView+LCLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AA241C1F3AEC3B00CF0C61 /* UIView+LCLayout.m */; };
+		A3AA24201F3AEE2700CF0C61 /* CustomTitleScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AA241F1F3AEE2700CF0C61 /* CustomTitleScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07B4941740992089368A2B7F /* libPods-LCGoodDetailViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LCGoodDetailViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39595FB73816DFCF78D3D3F9 /* Pods-LCGoodDetailViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCGoodDetailViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LCGoodDetailViewController/Pods-LCGoodDetailViewController.debug.xcconfig"; sourceTree = "<group>"; };
 		A3AA23E91F3AE00800CF0C61 /* LCGoodDetailViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCGoodDetailViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3AA23ED1F3AE00800CF0C61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A3AA23EF1F3AE00800CF0C61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +37,21 @@
 		A3AA23F81F3AE00800CF0C61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3AA23FB1F3AE00800CF0C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3AA23FD1F3AE00800CF0C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3AA24041F3AE02700CF0C61 /* LCFoodDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCFoodDetailViewController.h; sourceTree = "<group>"; };
+		A3AA24051F3AE02700CF0C61 /* LCFoodDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCFoodDetailViewController.m; sourceTree = "<group>"; };
+		A3AA240D1F3AE18A00CF0C61 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A3AA240E1F3AE18A00CF0C61 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A3AA24101F3AE19300CF0C61 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A3AA24111F3AE19300CF0C61 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A3AA24131F3AE5E400CF0C61 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		A3AA24151F3AE83900CF0C61 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		A3AA24181F3AEB9B00CF0C61 /* LCTitleScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCTitleScrollViewController.h; sourceTree = "<group>"; };
+		A3AA24191F3AEB9B00CF0C61 /* LCTitleScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTitleScrollViewController.m; sourceTree = "<group>"; };
+		A3AA241B1F3AEC3B00CF0C61 /* UIView+LCLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LCLayout.h"; sourceTree = "<group>"; };
+		A3AA241C1F3AEC3B00CF0C61 /* UIView+LCLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LCLayout.m"; sourceTree = "<group>"; };
+		A3AA241E1F3AEE2700CF0C61 /* CustomTitleScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTitleScrollViewController.h; sourceTree = "<group>"; };
+		A3AA241F1F3AEE2700CF0C61 /* CustomTitleScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTitleScrollViewController.m; sourceTree = "<group>"; };
+		CE3E0EAF17FA7F1DD836DBE5 /* Pods-LCGoodDetailViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCGoodDetailViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-LCGoodDetailViewController/Pods-LCGoodDetailViewController.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +59,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1362F5E29DFCAE6171A7354A /* libPods-LCGoodDetailViewController.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01BE91A8C921182EB1D42365 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07B4941740992089368A2B7F /* libPods-LCGoodDetailViewController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A3AA23E01F3AE00800CF0C61 = {
 			isa = PBXGroup;
 			children = (
 				A3AA23EB1F3AE00800CF0C61 /* LCGoodDetailViewController */,
 				A3AA23EA1F3AE00800CF0C61 /* Products */,
+				A4B6CFCBB372C14431C20C79 /* Pods */,
+				01BE91A8C921182EB1D42365 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +95,16 @@
 		A3AA23EB1F3AE00800CF0C61 /* LCGoodDetailViewController */ = {
 			isa = PBXGroup;
 			children = (
+				A3AA241B1F3AEC3B00CF0C61 /* UIView+LCLayout.h */,
+				A3AA241C1F3AEC3B00CF0C61 /* UIView+LCLayout.m */,
+				A3AA24171F3AEB9B00CF0C61 /* LCTitleScrollViewController */,
+				A3AA24031F3AE02700CF0C61 /* LCFoodDetailViewController */,
 				A3AA23EF1F3AE00800CF0C61 /* AppDelegate.h */,
 				A3AA23F01F3AE00800CF0C61 /* AppDelegate.m */,
 				A3AA23F21F3AE00800CF0C61 /* ViewController.h */,
 				A3AA23F31F3AE00800CF0C61 /* ViewController.m */,
+				A3AA241E1F3AEE2700CF0C61 /* CustomTitleScrollViewController.h */,
+				A3AA241F1F3AEE2700CF0C61 /* CustomTitleScrollViewController.m */,
 				A3AA23F51F3AE00800CF0C61 /* Main.storyboard */,
 				A3AA23F81F3AE00800CF0C61 /* Assets.xcassets */,
 				A3AA23FA1F3AE00800CF0C61 /* LaunchScreen.storyboard */,
@@ -79,6 +122,39 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A3AA24031F3AE02700CF0C61 /* LCFoodDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A3AA24041F3AE02700CF0C61 /* LCFoodDetailViewController.h */,
+				A3AA24051F3AE02700CF0C61 /* LCFoodDetailViewController.m */,
+				A3AA240D1F3AE18A00CF0C61 /* FirstViewController.h */,
+				A3AA240E1F3AE18A00CF0C61 /* FirstViewController.m */,
+				A3AA24131F3AE5E400CF0C61 /* FirstViewController.xib */,
+				A3AA24101F3AE19300CF0C61 /* SecondViewController.h */,
+				A3AA24111F3AE19300CF0C61 /* SecondViewController.m */,
+				A3AA24151F3AE83900CF0C61 /* SecondViewController.xib */,
+			);
+			path = LCFoodDetailViewController;
+			sourceTree = "<group>";
+		};
+		A3AA24171F3AEB9B00CF0C61 /* LCTitleScrollViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A3AA24181F3AEB9B00CF0C61 /* LCTitleScrollViewController.h */,
+				A3AA24191F3AEB9B00CF0C61 /* LCTitleScrollViewController.m */,
+			);
+			path = LCTitleScrollViewController;
+			sourceTree = "<group>";
+		};
+		A4B6CFCBB372C14431C20C79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39595FB73816DFCF78D3D3F9 /* Pods-LCGoodDetailViewController.debug.xcconfig */,
+				CE3E0EAF17FA7F1DD836DBE5 /* Pods-LCGoodDetailViewController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3AA24001F3AE00800CF0C61 /* Build configuration list for PBXNativeTarget "LCGoodDetailViewController" */;
 			buildPhases = (
+				6876DE3A4EAD79E5A6B3134B /* [CP] Check Pods Manifest.lock */,
 				A3AA23E51F3AE00800CF0C61 /* Sources */,
 				A3AA23E61F3AE00800CF0C61 /* Frameworks */,
 				A3AA23E71F3AE00800CF0C61 /* Resources */,
+				F7AAA4C537FC1E29AE4E319E /* [CP] Embed Pods Frameworks */,
+				CF13CC8EEFB5963FB9EBCE42 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,18 +219,74 @@
 				A3AA23FC1F3AE00800CF0C61 /* LaunchScreen.storyboard in Resources */,
 				A3AA23F91F3AE00800CF0C61 /* Assets.xcassets in Resources */,
 				A3AA23F71F3AE00800CF0C61 /* Main.storyboard in Resources */,
+				A3AA24141F3AE5E400CF0C61 /* FirstViewController.xib in Resources */,
+				A3AA24161F3AE83900CF0C61 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6876DE3A4EAD79E5A6B3134B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF13CC8EEFB5963FB9EBCE42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LCGoodDetailViewController/Pods-LCGoodDetailViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7AAA4C537FC1E29AE4E319E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LCGoodDetailViewController/Pods-LCGoodDetailViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A3AA23E51F3AE00800CF0C61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3AA24121F3AE19300CF0C61 /* SecondViewController.m in Sources */,
+				A3AA24061F3AE02700CF0C61 /* LCFoodDetailViewController.m in Sources */,
+				A3AA24201F3AEE2700CF0C61 /* CustomTitleScrollViewController.m in Sources */,
 				A3AA23F41F3AE00800CF0C61 /* ViewController.m in Sources */,
+				A3AA240F1F3AE18A00CF0C61 /* FirstViewController.m in Sources */,
 				A3AA23F11F3AE00800CF0C61 /* AppDelegate.m in Sources */,
+				A3AA241D1F3AEC3B00CF0C61 /* UIView+LCLayout.m in Sources */,
+				A3AA241A1F3AEB9B00CF0C61 /* LCTitleScrollViewController.m in Sources */,
 				A3AA23EE1F3AE00800CF0C61 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +405,7 @@
 		};
 		A3AA24011F3AE00800CF0C61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39595FB73816DFCF78D3D3F9 /* Pods-LCGoodDetailViewController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LCGoodDetailViewController/Info.plist;
@@ -281,6 +417,7 @@
 		};
 		A3AA24021F3AE00800CF0C61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE3E0EAF17FA7F1DD836DBE5 /* Pods-LCGoodDetailViewController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LCGoodDetailViewController/Info.plist;
@@ -309,6 +446,7 @@
 				A3AA24021F3AE00800CF0C61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

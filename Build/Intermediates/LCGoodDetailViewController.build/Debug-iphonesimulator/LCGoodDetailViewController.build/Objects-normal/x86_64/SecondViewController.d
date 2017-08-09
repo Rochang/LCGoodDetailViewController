@@ -1,0 +1,3 @@
+dependencies: \
+  /Users/liangrongchang/Desktop/LCGoodDetailViewController/LCGoodDetailViewController/LCFoodDetailViewController/SecondViewController.m \
+  /Users/liangrongchang/Desktop/LCGoodDetailViewController/LCGoodDetailViewController/LCFoodDetailViewController/SecondViewController.h
